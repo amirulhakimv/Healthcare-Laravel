@@ -53,7 +53,7 @@ Staff members can access their profiles to update availability and view assigned
 
 ERD Diagram
 
-![New DB (3)](https://github.com/BersamaMus/Web-Project/assets/130168686/d14f231c-601b-4078-80b8-ee060fc1dd89)
+![New DB (4)](https://github.com/BersamaMus/Web-Project/assets/130168686/05ecd496-57d1-4f3d-8066-76b9328e8322)
 
 
 Sequence Diagram

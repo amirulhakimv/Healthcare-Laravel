@@ -55,13 +55,13 @@
         <form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
+            <!--  <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span> -->
             </div>
            <!--  <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1"> -->
           </div>
         </form>
 
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation"> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -123,8 +123,8 @@
     <div class="hero-section">
       <div class="container text-center wow zoomIn">
         <span class="subhead">Let's make your life happier</span>
-        <h1 class="display-4">Healthy Living</h1>
-        <a href="#" class="btn btn-primary">Let's Consult</a>
+        <h1 class="display-4">Easy Appointment Booking</h1>
+        <a href="register" class="btn btn-primary">Register Now!</a>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@
               <div class="circle-shape bg-secondary text-white">
                 <span class="mai-chatbubbles-outline"></span>
               </div>
-              <p><span>Chat</span> with a doctors</p>
+              <p><span>Chat</span> with doctors</p>
             </div>
           </div>
           <div class="col-md-4 py-3 py-md-0">
@@ -147,7 +147,7 @@
               <div class="circle-shape bg-primary text-white">
                 <span class="mai-shield-checkmark"></span>
               </div>
-              <p><span>One</span>-Health Protection</p>
+              <p><span>Healthcare</span> Protection</p>
             </div>
           </div>
           <div class="col-md-4 py-3 py-md-0">
@@ -155,7 +155,7 @@
               <div class="circle-shape bg-accent text-white">
                 <span class="mai-basket"></span>
               </div>
-              <p><span>One</span>-Health Pharmacy</p>
+              <p><span></span>Healthcare Pharmacy</p>
             </div>
           </div>
         </div>
@@ -167,8 +167,10 @@
         <div class="row align-items-center">
           <div class="col-lg-6 py-3 wow fadeInUp">
             <h1>Welcome to Your Health <br> Center</h1>
-            <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
-            <a href="about.html" class="btn btn-primary">Learn More</a>
+            <p class="text-grey mb-4">This website makes booking an appointments easier! Start booking now by filling in the form at the bottom of this page.
+                To check your appointment status, register an account by clicking on the Register button at the top right corner!
+            </p>
+            <!-- <a href="about.html" class="btn btn-primary">Learn More</a> -->
           </div>
           <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="img-place custom-img-1">
@@ -208,16 +210,16 @@
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Our partner</h5>
           <ul class="footer-menu">
-            <li><a href="#">One-Fitness</a></li>
-            <li><a href="#">One-Drugs</a></li>
-            <li><a href="#">One-Live</a></li>
+            <li><a href="#">Pfizer</a></li>
+            <li><a href="#">Astra-Zeneca</a></li>
+            <li><a href="#">Johnson N Johnson</a></li>
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Contact</h5>
-          <p class="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
-          <a href="#" class="footer-link">701-573-7582</a>
-          <a href="#" class="footer-link">healthcare@temporary.net</a>
+          <p class="footer-link mt-2">Jln Gombak, 53100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+          <a href="#" class="footer-link">03-6421 6421</a>
+          <a href="#" class="footer-link">mustaqimkamal2@gmail.com</a>
 
           <h5 class="mt-3">Social Media</h5>
           <div class="footer-sosmed mt-3">
@@ -232,7 +234,6 @@
 
       <hr>
 
-      <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>
     </div>
   </footer>
 

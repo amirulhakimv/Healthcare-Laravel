@@ -8,7 +8,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-  <title>One Health - Medical Center HTML5 Template</title>
+  <title>Healthcare System - My Appointment</title>
 
   <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -31,9 +31,9 @@
         <div class="row">
           <div class="col-sm-8 text-sm">
             <div class="site-info">
-              <a href="#"><span class="mai-call text-primary"></span> +00 123 4455 6666</a>
+              <a href="#"><span class="mai-call text-primary"></span> +6011 7280 6856</a>
               <span class="divider">|</span>
-              <a href="#"><span class="mai-mail text-primary"></span> mail@example.com</a>
+              <a href="#"><span class="mai-mail text-primary"></span> mustaqimkamal2@gmail.com</a>
             </div>
           </div>
           <div class="col-sm-4 text-right text-sm">
@@ -50,14 +50,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">One</span>-Health</a>
+        <a class="navbar-brand" href="home"><span class="text-primary">Healthcare</span>-System</a>
 
         <form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
+            <!--  <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span> -->
             </div>
-            <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
+            <!-- <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1"> -->
           </div>
         </form>
 
@@ -68,19 +68,19 @@
         <div class="collapse navbar-collapse" style="visibility: visible !important;" id="navbarSupport">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+            <!--  <a class="nav-link" href="about.html">About Us</a> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doctors.html">Doctors</a>
+              <a class="nav-link" href="doctors">Doctors</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+         <!--     <a class="nav-link" href="contact.html">Contact</a> -->
             </li>
 
 @if(Route::has('login'))
@@ -131,7 +131,7 @@
             <td>{{$appoints->date}}</td>
             <td>{{$appoints->message}}</td>
             <td>{{$appoints->status}}</td>
-            <td><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
+            <td><a class="btn btn-danger" onclick="return confirm('Are you sure? This cannot be undone!')" href="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
           </tr>
 
           @endforeach
